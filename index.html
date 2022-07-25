@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+             penguin: '#FFFBF0',  // custome color
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+
+    <header class="bg-penguin pb-32 pt-12">
+        <section class="container mx-auto sm:flex items-center justify-around ">
+            <div class="space-y-4">
+                <h1 class="text-2xlS sm:text-5xl font-bold uppercase"> 
+                <span class="text-[#FABE4C]" >Be the Penguins</span>    <!--custome color can be used like text-[#FABE4C] but it is not appropriate -->
+                <br>
+                <span>of Winter</span>
+            </h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <button  class="bg-[#A4BC46] py-4 px-5 text-white rounded-xl font-semibold"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg> BUY NOW</button></div>
+
+              <div class=" pt-4 sm:pt-0">
+                <img class="w-1/2 sm:w-full" src="images/model.png" alt="">   <!--  sm means the device that are greater than sm width -->
+              </div>
+        </section>
+        
+    </header>
+  <main class="container mx-auto">
+    <!-- jacket -->
+    <section class="my-7 pb-32">
+        <h1 class="uppercase text-3xl font-bold">
+            WoMan Jacket
+        </h1>
+        <div  class="grid md:grid-cols-2 lg:grid-cols-3 mx-auto gap-7">
+            <div class="p-4 shadow-lg rounded" >
+                <div class="bg-[#F1F1F1] rounded-xl p-5">
+                    <img src="images/jacket-1.png" alt="">
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold">Yellow Coat Jacket</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="flex justify-between">
+                    <h3 class="text-5xl text-[#FABE4C] font-bold">$234</h3>
+                    <button  class="bg-[#A4BC46] py-4 px-5 text-white rounded-xl font-semibold"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                      </svg> BUY NOW</button>
+                </div>
+            </div>
+            <div class="p-4 shadow-lg rounded" >
+                <div class="bg-[#F1F1F1] rounded-xl p-5">
+                    <img src="images/jacket-2.png" alt="">
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold">Yellow Coat Jacket</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="flex justify-between">
+                    <h3 class="text-5xl text-[#FABE4C] font-bold">$234</h3>
+                    <button  class="bg-[#A4BC46] py-4 px-5 text-white rounded-xl font-semibold"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                      </svg> BUY NOW</button>
+                </div>
+            </div>
+            <div class="p-4 shadow-lg rounded" >
+                <div class="bg-[#F1F1F1] rounded-xl p-5">
+                    <img src="images/jacket-3.png" alt="">
+                </div>
+                <div>
+                    <h2 class="text-2xl font-semibold">Yellow Coat Jacket</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="flex justify-between">
+                    <h3 class="text-5xl text-[#FABE4C] font-bold">$234</h3>
+                    <button  class="bg-[#A4BC46] py-4 px-5 text-white rounded-xl font-semibold"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                      </svg> BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-[#fbf7f7]">
+        <div class="grid grid-cols-2 gap-7 items-center">
+            <div class="h-32 bg-white flex rounded-3xl m-2  items-center justify-evenly">
+                <div class=" ">
+                    <img class="w-1/3" src="images/house.png" alt="">
+                </div>
+                <div>
+
+                    <h1 class="text=2xl font-bold">Find the Perfect Fit</h1>
+                    <p>Everybody is different, which is why we offer styles for every body.</p>
+                </div>
+            </div>
+            <div class="row-span-3 bg-white"><img src="images/shopping.png" alt=""></div>
+            <div class="h-32 bg-white flex rounded-3xl m-2  items-center justify-evenly">
+                <div class=" ">
+                    <img class="w-1/3" src="images/house.png" alt="">
+                </div>
+                <div>
+
+                    <h1 class="text=2xl font-bold">Find the Perfect Fit</h1>
+                    <p>Everybody is different, which is why we offer styles for every body.</p>
+                </div>
+            </div>
+            <div class="h-32 bg-white flex rounded-3xl m-2  items-center justify-evenly">
+                <div class=" ">
+                    <img class="w-1/3" src="images/house.png" alt="">
+                </div>
+                <div class="text colo">
+
+                    <h1 class="text=2xl font-bold">Find the Perfect Fit</h1>
+                    <p >Everybody is different, which is why we offer styles for every body.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <p class="text-right">sghdg</p>
+  </main>
+  </h1>
+</body>
+</html>
